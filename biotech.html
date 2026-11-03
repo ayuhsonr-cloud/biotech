@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio-Tech.com</title>
+    <link rel="stylesheet" href="biotech.css" />
+    <script src="biotech.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="landing">
+            <img src="./black-woman-white-shirt-curly-hair.png" alt="black-woman-white-shirt-curly-hair"
+                class=".landing-hero" />
+            <div class="landing-botton">
+                <h2 class="landing-text">
+                    welcome to Bio-Tech <br />
+                    world's number one gene testing site
+                </h2>
+                <p class="landing-para">
+                    know your compatibilty rate in a few clicks and secure a bright
+                    future for your future young one's today!
+                </p>
+                <input type="text" class="userName" placeholder="what's ur name" required />
+                <input type="number" class="age" min="18" max="60" placeholder="what's ur age" required />
+                <button class="cnt">continue👉</button>
+            </div>
+        </div>
+
+        <div class="massage">
+            <p class="mssg">
+                welcome <span class="current-user"></span> to bio-tech please
+                fill all details to begin testing......
+            </p>
+            <div class="cta">
+                <button class="acept">click here to procced</button>
+                <a href="biotech.html" class="cancel">cancel</a>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+
+        <form class="user-form">
+            <div class="groom-genType">
+                <p for="genotype">what's your genotype</p>
+                <div class="opt-1">
+                    <input type="radio" id="AS" name="gene" value="AS" class="groom-gen" /><label for="AS">AS</label>
+                </div>
+                <div class="opt-2">
+                    <input type="radio" id="AA" name="gene" value="AA" class="groom-gen" /><label for="AA">AA</label>
+                </div>
+                <div class="opt-3">
+                    <input type="radio" id="SS" name="gene" value="SS" class="groom-gen" /><label for="SS">SS</label>
+                </div>
+                <div class="opt-4">
+                    <input type="radio" id="AC" name="gene" value="AC" class="groom-gen" /><label for="AC">AC</label>
+                </div>
+            </div>
+
+            <div class="spouce">
+                <input type="text" class="spouce-name" placeholder="what's the name of ur spouce" />
+                <input type="number" min="18" max="45" class="spouce-age" placeholder="what's the age of ur spouce" />
+                <div class="spouce-genType">
+                    <p class="genotype">what genotype is your partner</p>
+                    <div class="opt-1">
+                        <input type="radio" id="sp-AS" name="sp-gene" value="AS" class="spouce-gene" /><label
+                            for="sp-AS">AS</label>
+                    </div>
+                    <div class="opt-2">
+                        <input type="radio" id="sp-AA" name="sp-gene" value="AA" class="spouce-gene" /><label
+                            for="sp-AA">AA</label>
+                    </div>
+                    <div class="opt-3">
+                        <input type="radio" id="sp-SS" name="sp-gene" value="SS" class="spouce-gene" /><label
+                            for="sp-SS">SS</label>
+                    </div>
+                    <div class="opt-4">
+                        <input type="radio" id="sp-AC" name="sp-gene" value="AC" class="spouce-gene" /><label
+                            for="sp-AC">AC</label>
+                    </div>
+                </div>
+                <button class="check-compact">check compactability</button>
+            </div>
+        </form>
+        <div class="useful-tips">
+            <h4>useful info</h4>
+            <p class="question">what's a genotype ???</p>
+            <p class="answer">
+                A genotype refers to the genetic makeup of an individual, determined
+                by the combination of alleles inherited from their parents.
+            </p>
+            <h4 class="rel-info">relevance</h4>
+            <p class="relavance">
+                It plays a significant role in determining traits, including
+                susceptibility to certain diseases and compatibility for childbearing
+            </p>
+        </div>
+
+        <div class="positive">
+            <p class="mssge">
+
+                Great News! Your Blood Type Is Ideal for Pregnancy
+
+                Dear <span class="subject"></span>
+
+                We are delighted to inform you that your blood type is well-matched for a healthy pregnancy. This
+                compatibility minimizes potential complications and ensures a smoother journey ahead.
+
+                We encourage you to discuss this with your doctor for further guidance. If you need more information,
+                Bio-tech is here to support you.
+
+                Wishing you a successful path forward!
+
+                Best regards, @bio-tech 2025
+            </p>
+        </div>
+        <div class="negative">
+            <p class="mssg-01">
+
+                Important Blood Type Considerations for Childbearing
+
+                Dear <span class="subject"></span>
+
+                Your blood type presents some challenges for pregnancy compatibility. Factors such as Rh or ABO
+                incompatibility may require medical interventions to ensure the safest outcome.
+
+                We strongly encourage you to consult a healthcare professional to explore available medical options that
+                support your reproductive journey. You are not alone—our team is here to provide guidance.
+
+                Let us know how we can assist you.
+
+                Best regards, @bio-tech 2025
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
